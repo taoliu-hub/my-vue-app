@@ -2,11 +2,11 @@
 export const telemetryMixin = {
   created() {
     // console.log(this.$options);
-    this.logTelemetryEvent('Component_load', this.$options.name);
+    this.logTelemetryEvent('telemetryMixin:', `Component_load ==> ${this.$options.name}`);
   },
   methods: {
     logTelemetryEvent(type, value) {
-      console.log(`${type}:${value} ==> Sending telemetry event to server.`);
+      console.log('telemetryMixin:', `${type}:${value} ==> Sending telemetry event to server.`);
     },
   },
 };

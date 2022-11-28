@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "username": "liu123tao321@163.com",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "nickname": "Mr. K",
+      "phoneNumberPrefix": " 86",
+      "phoneNumber": "183xxxxxxxx",
+      "website": "https://taoliu-hub.github.io/",
+      "captcha": "123456",
+      "agree": true,
+      "isLoggedIn": true,
+      "id": 1
+    }
+  ]
+}

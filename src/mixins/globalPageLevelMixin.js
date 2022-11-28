@@ -1,9 +1,9 @@
 /* eslint-disable */
 export const globalPageLevelMixin = {
   created() {
-    console.log(this.$options);
+    // console.log(this.$options);
     if(this.$options.pageLevelComponent) {
-      console.log(`${this.$options.name}: ==> Implementing custom logic for page level component.`);
+      console.log('globalPageLevelMixin: ', `${this.$options.name}: ==> Implementing custom logic for page level component.`);
     }
   },
   destroyed() {
@@ -11,7 +11,7 @@ export const globalPageLevelMixin = {
   },
   methods: {
     logPageLevelEvent(type, value) {
-      console.log(`${type}:${value} ==> Leaving.`);
+      console.log('globalPageLevelMixin: ', `${type}:${value} ==> Leaving.`);
     },
   },
 };

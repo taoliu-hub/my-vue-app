@@ -3,7 +3,7 @@ function checkUserPermissions(section) {
     // const userHasPermission = false;
     // return userHasPermission;
     const menuPermissions = {
-      Favortites: true,
+      Favortites: false,
       Home: true,
       About: false,
       '':false
